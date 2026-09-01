@@ -16,32 +16,32 @@ const FOCUS_AREAS = [
   },
   {
     icon: "⬡",
-    title: "Neighborhood Safety",
-    desc: "Placeholder — describe an initiative focused on making streets, parks, and public spaces safer for residents.",
+    title: "Park Safety",
+    desc: "With our park first aid station initiative, we bring first aid resources to local playgrounds and green spaces.",
     color: "from-lime-500/20 to-transparent",
   },
   {
     icon: "◎",
     title: "Volunteer Network",
-    desc: "Placeholder — describe how volunteers get involved and what kinds of shifts or projects they support.",
+    desc: "We aim to build a volunteer network spanning highschools around the nation empowering students passionate about healthcare and the environment to make an impact.",
     color: "from-teal-500/20 to-transparent",
   },
   {
     icon: "⬢",
     title: "Youth & Family Wellness",
-    desc: "Placeholder — describe programming aimed at kids and families in the community.",
+    desc: "We plan to develop educational resources on personal health for children and families around the Twin Cities.",
     color: "from-green-500/20 to-transparent",
   },
   {
     icon: "◉",
     title: "Environmental Health",
-    desc: "Placeholder — describe efforts around clean air, water, green space, or other environmental factors.",
+    desc: "We ensure that all of our first aid stations are made in a sustainable fashion, primarily incorporating natural material and wasting as little as possible.",
     color: "from-emerald-400/20 to-transparent",
   },
   {
     icon: "⬟",
     title: "Emergency Preparedness",
-    desc: "Placeholder — describe resources or training that help communities respond to emergencies.",
+    desc: "We hope to create training resources to accompany our first aid stations that help communities and individuals respond to emergencies.",
     color: "from-lime-400/20 to-transparent",
   },
 ];
