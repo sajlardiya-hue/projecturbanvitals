@@ -1,6 +1,12 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 
+// Toggle these to show/hide sections without deleting their content
+const SHOW_STATS = true;
+const SHOW_FOCUS_AREAS = true;
+const SHOW_TESTIMONIALS = false; // hidden for now
+const SHOW_FAQ = true;
+
 const FOCUS_AREAS = [
   {
     icon: "◈",
@@ -41,10 +47,9 @@ const FOCUS_AREAS = [
 ];
 
 const STATS = [
-  { value: "0", label: "Volunteers (placeholder)" },
-  { value: "0", label: "Programs run (placeholder)" },
-  { value: "0", label: "Neighborhoods served (placeholder)" },
-  { value: "0", label: "Lives impacted (placeholder)" },
+  { value: "15", label: "Volunteers" },
+  { value: "2", label: "Schools" },
+  { value: "3", label: "Parks served" },
 ];
 
 const TESTIMONIALS = [
@@ -165,6 +170,8 @@ export default function Home() {
         </div>
       </section>
 
+  {SHOW_TESTIMONIALS && (
+    <>
       <div className="section-divider max-w-7xl mx-auto mb-24" />
 
       {/* TESTIMONIALS */}
@@ -200,7 +207,8 @@ export default function Home() {
       </section>
 
       <div className="section-divider max-w-7xl mx-auto mb-24" />
-
+    </>
+  )}
       {/* FAQ */}
       <section className="max-w-3xl mx-auto px-6 pb-32">
         <div className="text-center mb-12">
