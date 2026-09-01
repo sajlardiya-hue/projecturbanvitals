@@ -130,7 +130,7 @@ export default function Home() {
 
       {/* STATS BAR */}
       <section className="max-w-5xl mx-auto px-6 pb-24">
-        <div className="glass-card rounded-2xl p-8 grid grid-cols-2 md:grid-cols-4 gap-8 stat-shine">
+        <div className="glass-card rounded-2xl p-8 grid grid-cols-1 md:grid-cols-3 gap-8 stat-shine">
           {STATS.map((s) => (
             <div key={s.label} className="text-center">
               <div
