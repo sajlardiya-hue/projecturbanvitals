@@ -10,8 +10,8 @@ const SHOW_FAQ = true;
 const FOCUS_AREAS = [
   {
     icon: "◈",
-    title: "Community Health Screenings",
-    desc: "Placeholder — describe a program that brings free or low-cost health screenings to neighborhoods that need them most.",
+    title: "Health Communication",
+    desc: "Communication and understanding in healthcare can be a major obstacle to successful patient-provider relationships. At UrbanVitals, we aim to create solutions to facilitate this relationship.",
     color: "from-emerald-500/20 to-transparent",
   },
   {
