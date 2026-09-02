@@ -33,10 +33,6 @@ export default function Events() {
         >
           Upcoming events.
         </h1>
-        <p className="text-lg text-white/60 max-w-2xl mx-auto leading-relaxed font-light">
-          No events are scheduled yet — this section is a template. Duplicate one of the cards below for each real
-          event you add.
-        </p>
       </section>
 
       {/* EVENTS LIST */}
