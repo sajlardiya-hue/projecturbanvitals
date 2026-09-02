@@ -99,11 +99,11 @@ export default function Home() {
           className="text-5xl md:text-7xl lg:text-8xl font-bold text-white leading-[1.05] tracking-tight mb-6 glow-text"
           style={{ fontFamily: "'Fraunces', serif" }}
         >
-          Building healthier{" "}
+          Building healthier cities
+          <br />
           <span className="bg-gradient-to-r from-emerald-300 via-green-300 to-lime-300 bg-clip-text text-transparent">
-            cities
+            together.
           </span>
-          <br />together.
         </h1>
 
         <p className="text-lg md:text-xl text-white/60 max-w-2xl mx-auto mb-10 leading-relaxed font-light">
