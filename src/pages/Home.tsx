@@ -80,10 +80,10 @@ export default function Home() {
   const [openFaq, setOpenFaq] = useState<number | null>(null);
 
   const faqs = [
-    { q: "How can I get involved as a volunteer?", a: "Placeholder answer — describe how someone signs up to volunteer, what commitment looks like, and any requirements." },
-    { q: "Where does my donation go?", a: "Placeholder answer — describe how donations are used across your programs." },
-    { q: "How can my organization partner with Project UrbanVitals?", a: "Placeholder answer — describe how businesses, schools, or other nonprofits can partner with you." },
-    { q: "Do you accept in-kind donations?", a: "Placeholder answer — describe whether you accept supplies, equipment, or other non-cash donations." },
+    { q: "How can I get involved as a volunteer?", a: "Head to our contact page and send a 'volunteering' message!" },
+    { q: "Where does my donation go?", a: "Your donation goes straight towards Project UrbanVitals' initiatives, such as restocking our park first aid stations" },
+    { q: "How can my organization partner with Project UrbanVitals?", a: "We're always looking for partnerships and sponsors! Fill out the form on our contact page and specify 'partnership!'" },
+    { q: "Do you accept in-kind donations?", a: "Yes, we do accept materials such as first aid supplies and building materials! Please contact us for specifics." },
   ];
 
   return (
