@@ -45,9 +45,6 @@ export default function About() {
             </div>
           ))}
         </div>
-        <p className="text-white/30 text-xs text-center mt-8">
-          Team photos, names, roles, and bios are placeholders — swap them in once you have the details.
-        </p>
       </section>
     </>
   );
