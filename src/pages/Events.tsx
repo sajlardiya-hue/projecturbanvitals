@@ -19,6 +19,8 @@ const EVENT_TEMPLATE = [
   },
 ];
 
+const SHOW_EVENT_CARDS = false; // flip to true once you have real events to show
+
 export default function Events() {
   return (
     <>
@@ -39,23 +41,25 @@ export default function Events() {
 
       {/* EVENTS LIST */}
       <section className="max-w-5xl mx-auto px-6 pb-32">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          {EVENT_TEMPLATE.map((e, i) => (
-            <div key={i} className="glass-card rounded-2xl p-6 feature-card flex flex-col gap-4">
-              <div className="inline-flex self-start items-center gap-2 glass rounded-full px-3 py-1 text-xs text-emerald-300 font-medium">
+        {SHOW_EVENT_CARDS ? (
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            {EVENT_TEMPLATE.map((e, i) => (
+              <div key={i} className="glass-card rounded-2xl p-6 feature-card flex flex-col gap-4">
+                <div className="inline-flex self-start items-center gap-2 glass rounded-full px-3 py-1 text-xs text-emerald-300 font-medium">
                 {e.date}
+                </div>
+                <h3 className="text-white font-semibold text-lg">{e.title}</h3>
+                <p className="text-white/45 text-sm">{e.location}</p>
+                <p className="text-white/55 text-sm leading-relaxed">{e.desc}</p>
               </div>
-              <h3 className="text-white font-semibold text-lg">{e.title}</h3>
-              <p className="text-white/45 text-sm">{e.location}</p>
-              <p className="text-white/55 text-sm leading-relaxed">{e.desc}</p>
-            </div>
-          ))}
-        </div>
-        <p className="text-white/30 text-xs text-center mt-8">
-          These are placeholder event cards — replace the dates, titles, locations, and descriptions once you have
-          real events, and remove any extra cards you don't need.
-        </p>
-      </section>
+            ))}
+          </div>
+        ) : (
+    <div className="glass-card rounded-2xl p-12 text-center">
+      <p className="text-white/50 text-base">No events are scheduled at the moment.</p>
+    </div>
+  )}
+</section>
     </>
   );
 }
