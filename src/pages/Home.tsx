@@ -81,7 +81,7 @@ export default function Home() {
 
   const faqs = [
     { q: "How can I get involved as a volunteer?", a: "Head to our contact page and send a 'volunteering' message!" },
-    { q: "Where does my donation go?", a: "Your donation goes straight towards Project UrbanVitals' initiatives, such as restocking our park first aid stations" },
+    { q: "Where does my donation go?", a: "Your donation goes straight towards Project UrbanVitals' initiatives, such as restocking our park first aid stations." },
     { q: "How can my organization partner with Project UrbanVitals?", a: "We're always looking for partnerships and sponsors! Fill out the form on our contact page and specify 'partnership!'" },
     { q: "Do you accept in-kind donations?", a: "Yes, we do accept materials such as first aid supplies and building materials! Please contact us for specifics." },
   ];
